@@ -32,3 +32,5 @@ Criando uma Branch
 3. Acesse a nova branch usando "git checkout <nome_da_branch>"
 4. Caso deseje juntar duas branches ou unir a branch com a Main, utilize "git merge <nome_da_branch>", isso fará com que a sua branch atual seja fundida à branch informada.
 5. Para remover uma branch utilize "git branch -d <nome_da_branch>"
+
+-----------------------------
