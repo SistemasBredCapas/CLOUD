@@ -19,3 +19,16 @@ Como enviar arquivos e salar alterações
 5. Para publicar utilize "git push" e as informações serão enviadas para o repositório
 
 Dica: Caso queira verificar o status do repositório, para validar se existe alguma alteração pendente, utilize "git status" 
+
+
+
+Acessando as Branches
+
+1. Para verificar em qual branch você está, utilize "git branch" e a sua branch será marcado com um "*"
+
+Criando uma Branch
+1. Acesse o diretório no terminal
+2. Use o comando "git branch <nome_da_branch>"
+3. Acesse a nova branch usando "git checkout <nome_da_branch>"
+4. Caso deseje juntar duas branches ou unir a branch com a Main, utilize "git merge <nome_da_branch>", isso fará com que a sua branch atual seja fundida à branch informada.
+5. Para remover uma branch utilize "git branch -d <nome_da_branch>"
