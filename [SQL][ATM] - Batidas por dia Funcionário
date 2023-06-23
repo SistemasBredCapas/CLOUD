@@ -1,7 +1,0 @@
-SELECT
-	[Batidas do Funcionario] = UPPER(ISNULL(CONVERT(VARCHAR(255), ABATFUN .BATIDA), 'N/A'))
-	,[Data da Batida] = CONVERT(VARCHAR(10), ABATFUN.DATA, 112)
-	,[Chapa do Funcionario] = UPPER(CONVERT(VARCHAR(25), ABATFUN.CHAPA))
-	
-	FROM ABATFUN
-	
