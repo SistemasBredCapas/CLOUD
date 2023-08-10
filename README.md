@@ -34,3 +34,10 @@ Criando uma Branch
 5. Para remover uma branch utilize "git branch -d <nome_da_branch>"
 
 -----------------------------
+
+Legenda de pastas 
+    01 = queries protheus
+        01 = versão
+            01 = desenvolvimento
+            02 = produção
+        exemplo: "01.0102" (queries protheus . versão 1 . produção)
