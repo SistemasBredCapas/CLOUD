@@ -93,7 +93,7 @@ FROM SD1010 SD1
     LEFT JOIN SF4010 SF4 
         ON F4_FILIAL = D1_FILIAL 
         AND D1_TES = F4_CODIGO 
-        ]AND SF4.D_E_L_E_T_ = ' ' 
+        AND SF4.D_E_L_E_T_ = ' ' 
     LEFT JOIN SE4010 SE4 
         ON E4_FILIAL = SUBSTRING(D1_FILIAL , 1 , 2) 
         AND E4_CODIGO = F2_COND 
